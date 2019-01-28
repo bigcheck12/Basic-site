@@ -1,6 +1,7 @@
-html {
+main {
 	font-family: 'Roboto', sans-serif;
-	color: blue;
+	background: : #FAFAFA;
+	color: #0277BD;
 }
 
 .icons i{
