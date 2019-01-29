@@ -1,6 +1,13 @@
 main {
 	font-family: 'Roboto', sans-serif;
 	color: #0277BD;
+	line-height: 1.6;
+}
+
+.seperator{
+	border-bottom: 1px solid #eee;
+	width: 100%;
+	margin: 1rem 0;
 }
 
 .contentwrap{
@@ -16,4 +23,25 @@ main {
 }
 .nameline{
 	margin: 0;
+}
+
+.titleline{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: .5rem 0;
+	font-size: 1.065rem;
+}
+
+.iconline{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: .125rem 0;
+}
+
+.iconline a{
+	font-size: 2rem;
+	color: #333;
+	margin: .25rem .5rem;
 }
