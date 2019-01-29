@@ -1,9 +1,19 @@
 main {
 	font-family: 'Roboto', sans-serif;
-	background: : #FAFAFA;
 	color: #0277BD;
 }
 
-.icons i{
-	font-size: 3em;
+.contentwrap{
+	margin: 0 auto;
+	min-width: 90%;
+}
+.topcontainer{
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.nameline{
+	margin: 0;
 }
