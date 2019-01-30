@@ -5,14 +5,15 @@ main {
 }
 
 .seperator{
-	border-bottom: 1px solid #eee;
+	border-bottom: 2px solid #eee;
 	width: 100%;
 	margin: 1rem 0;
 }
 
 .contentwrap{
 	margin: 0 auto;
-	min-width: 90%;
+	/*min-width: 90%;*/
+	max-width: 760px;
 }
 .topcontainer{
 	margin: 1rem 0;
@@ -21,8 +22,12 @@ main {
 	justify-content: center;
 	align-items: center;
 }
+.bottomcontainer{
+	margin: .5rem 0;
+}
 .nameline{
 	margin: 0;
+	font-size: 3rem;
 }
 
 .titleline{
