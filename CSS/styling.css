@@ -3,7 +3,24 @@ main {
 	color: #0277BD;
 	line-height: 1.6;
 }
+object{
+	pointer-events: none;
+}
 
+.svgobs{
+	height: 2.4rem;
+	margin: .25rem .5rem;
+	animation-name: svgobs;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes svgobs {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
 .seperator{
 	border-bottom: 2px solid #eee;
 	width: 100%;
@@ -28,7 +45,13 @@ main {
 .nameline{
 	margin: 0;
 	font-size: 3rem;
+	animation-name: nameline;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
+
+
 
 .titleline{
 	display: flex;
@@ -43,10 +66,4 @@ main {
 	align-items: center;
 	justify-content: center;
 	padding: .125rem 0;
-}
-
-.iconline a{
-	font-size: 2rem;
-	color: #333;
-	margin: .25rem .5rem;
 }
