@@ -1,22 +1,4 @@
-@media only screen and (min-device-width: 375px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-	.nameline {
-		font-size: 7.6vw;
-		color: brown;
-	}
 
-	.titleline{
-		font-size: 3.5vw;
-	}
-	h1{
-		font-size: 4vw;
-	}
-	.svgobs{
-		height: 3.4rem;
-	}
-	.seperator{
-		border-bottom: 4px solid #eee;
-	}
-}
 main {
 	font-family: 'Roboto', sans-serif;
 	color: #0277BD;
@@ -40,6 +22,7 @@ object{
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }    
 }
+
 .seperator{
 	border-bottom: 2px solid #eee;
 	width: 100%;
@@ -51,6 +34,7 @@ object{
 	/*min-width: 90%;*/
 	max-width: 760px;
 }
+
 .topcontainer{
 	margin: 1rem 0;
 	display: flex;
@@ -58,15 +42,15 @@ object{
 	justify-content: center;
 	align-items: center;
 }
+
 .bottomcontainer{
 	margin: .5rem 0;
 }
+
 .nameline{
 	margin: 0;
 	font-size: 3rem;
 }
-
-
 
 .titleline{
 	display: flex;
@@ -81,4 +65,23 @@ object{
 	align-items: center;
 	justify-content: center;
 	padding: .125rem 0;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	.nameline {
+		font-size: 7.6vw;
+		color: brown;
+	}
+	.titleline{
+		font-size: 3.5vw;
+	}
+	h1{
+		font-size: 4vw;
+	}
+	.svgobs{
+		height: 3.4rem;
+	}
+	.seperator{
+		border-bottom: 4px solid #eee;
+	}
 }
