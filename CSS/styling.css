@@ -1,3 +1,22 @@
+@media only screen and (min-device-width: 375px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	.nameline {
+		font-size: 7.6vw;
+		color: brown;
+	}
+
+	.titleline{
+		font-size: 3.5vw;
+	}
+	h1{
+		font-size: 4vw;
+	}
+	.svgobs{
+		height: 3.4rem;
+	}
+	.seperator{
+		border-bottom: 4px solid #eee;
+	}
+}
 main {
 	font-family: 'Roboto', sans-serif;
 	color: #0277BD;
@@ -45,10 +64,6 @@ object{
 .nameline{
 	margin: 0;
 	font-size: 3rem;
-	animation-name: nameline;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
 }
 
 
