@@ -69,19 +69,23 @@ object{
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
 	.nameline {
-		font-size: 7.6vw;
+		font-size: 8.6vw;
 		color: brown;
 	}
 	.titleline{
-		font-size: 3.5vw;
+		font-size: 3.99vw;
 	}
 	h1{
-		font-size: 4vw;
+		font-size: 5vw;
 	}
 	.svgobs{
-		height: 3.4rem;
+		height: 6rem;
+		margin: .35rem 3.5rem;
 	}
 	.seperator{
 		border-bottom: 4px solid #eee;
+	}
+	body{
+		background: seashell;
 	}
 }
