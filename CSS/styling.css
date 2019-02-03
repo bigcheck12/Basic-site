@@ -1,4 +1,6 @@
-
+body{
+	background-color: seashell;
+}
 main {
 	font-family: 'Roboto', sans-serif;
 	color: #0277BD;
